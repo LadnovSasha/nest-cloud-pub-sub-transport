@@ -11,7 +11,6 @@
   "scripts": {
     "compile": "yarn tsc",
     "build": "yarn compile -p tsconfig.build.json",
-    "postinstall": "tsc -p tsconfig.build.json",
     "lint": "./node_modules/.bin/eslint . --ext .ts",
     "test": "jest --testRegex='((test)/.*\\.spec)\\.ts$'",
     "test:watch": "yarn test --watch",
