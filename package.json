@@ -18,7 +18,7 @@
     "integration": "jest --runInBand --testRegex='((test)/.*\\.integration-test)\\.ts$'"
   },
   "dependencies": {
-    "@google-cloud/pubsub": "^1.5.0",
+    "@google-cloud/pubsub": "^2.5.0",
     "@nestjs/common": "^6.11.7",
     "@nestjs/core": "^6.11.7",
     "@nestjs/microservices": "^6.11.7",
